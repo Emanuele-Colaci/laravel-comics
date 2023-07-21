@@ -91,7 +91,7 @@
                                         <i class="fa-solid fa-caret-down"></i>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="search-container">
                                     <input type="text" class="text-end" placeholder="Search">
                                     <i class="fa-solid fa-magnifying-glass"></i>
                                 </li>

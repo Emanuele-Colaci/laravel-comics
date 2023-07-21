@@ -35,6 +35,13 @@ header ul{
     }
 }
 
+
+
+.search-container{
+    border-bottom: 3px solid #0282F9;
+    display: inline-block;
+}
+
 header a{
     text-decoration: none;
 }
@@ -46,7 +53,6 @@ header .active{
 
 header input{
     border: none;
-    border-bottom: 3px solid #0282F9;
 }
 
 /* FINE HEADER */

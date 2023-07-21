@@ -23,7 +23,7 @@
         <div class="position-relative">
             <!-- JUMBOTRON -->
             <img class="jumbotron" src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" alt="Jumbotron">
-            <img class="position" src="{{Vite::asset('/resources/images/adv.jpg')}}" alt="adv">
+            <img class="position" src="{{Vite::asset('\resources\images\adv.jpg')}}" alt="adv">
         </div>
         <main>
          
