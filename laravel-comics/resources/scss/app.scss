@@ -68,6 +68,15 @@ header input{
     background-color: #1c1c1c;
 }
 
+.jumbotron1{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+    background-color: #1c1c1c;
+    border-bottom: 5rem solid #0282F9;
+}
+
 .position{
     position: absolute;
     bottom: -20px;
@@ -77,6 +86,13 @@ header input{
     background-color: #0282F9;
     color: #fff;
     cursor: pointer;
+}
+
+.position1{
+    position: absolute;
+    bottom: 20px;
+    left: 18%;
+    width: 15rem;
 }
 
 button{
@@ -125,8 +141,12 @@ main a{
     }
 }
 
-.svg-img{
-    width: 80px;
+.dimension-img{
+    width: 50%;
+}
+
+.fs{
+    font-size: 10px;
 }
 
 /* FINE MAIN */
