@@ -90,10 +90,37 @@ button{
 
 .background-black{
     background-color: #1C1C1C;
+    padding: 20px;
 }
 
 .height-card{
     min-height: 400px;
+}
+
+.bg-blue{
+    background-color: #0282F9;
+    padding: 20px;
+}
+
+.container1{
+    min-width: 1070px;
+}
+
+.dimension{
+    width: calc(100% / 7 );
+    vertical-align: middle;
+}
+
+main a{
+    text-decoration: none;
+    color: #fff;
+    span{
+        margin-left: 5px;
+    }
+}
+
+.svg-img{
+    width: 80px;
 }
 
 /* FINE MAIN */
