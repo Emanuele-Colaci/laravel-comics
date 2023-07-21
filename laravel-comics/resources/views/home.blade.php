@@ -20,22 +20,26 @@
         @include('partials/header')
 
         <!-- MAIN -->
-        <img class="jumbotron" src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" alt="Jumbotron">
-        <main class="background-black">
+        <div class="position-relative">
+            <!-- JUMBOTRON -->
+            <img class="jumbotron" src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" alt="Jumbotron">
             <button class="position">CURRENT SERIES</button>
+        </div>
+        <main class="background-black">
             <div class="container">
                 <div class="row">
                     @foreach($comics as $comic)
-                        <div class="col-12 col-md-6 col-lg-2 my-3">
-                            <div class="card border-1 my-1 height-card">
-                                <img class="img-fluid card-img-top" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
-                                <div class="card-body">
+                        <div class="col-12 col-md-6 col-lg-2 mt-5">
+                            <div class="my-1 height-card">
+                                <img class="img-fluid card-img-top fumetti" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                                <div class="card-body text-white mt-3">
                                     <span>{{ $comic['series'] }}</span>
                                 </div>
                             </div>
                         </div>
                     @endforeach
                 </div>
+                <button>LOAD MORE</button>
             </div>
         </main>
 

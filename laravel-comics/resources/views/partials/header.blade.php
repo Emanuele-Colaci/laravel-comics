@@ -98,7 +98,6 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- JUMBOTRON -->
                 </div>
             </div>
         </header>
