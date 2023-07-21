@@ -35,7 +35,7 @@
                     <div class="row align-items-center">
                         <div class="col-2">
                             <a href="/">
-                                <img src="{{Vite::asset('/resources/images/dc-logo.png')}}" alt="logo">
+                                <img class="logo" src="{{Vite::asset('/resources/images/dc-logo.png')}}" alt="logo">
                             </a>
                         </div>
                         <div class="col-10">
@@ -98,6 +98,7 @@
                             </ul>
                         </div>
                     </div>
+                    <!-- JUMBOTRON -->
                 </div>
             </div>
         </header>
