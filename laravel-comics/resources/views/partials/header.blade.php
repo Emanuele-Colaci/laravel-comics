@@ -92,7 +92,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <input type="text" class="float-end" placeholder="Search">
+                                    <input type="text" class="text-end" placeholder="Search">
                                     <i class="fa-solid fa-magnifying-glass"></i>
                                 </li>
                             </ul>

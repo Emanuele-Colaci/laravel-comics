@@ -23,40 +23,41 @@
                         <div class="d-flex">
                             <div>
                                 <h2>DC COMICS</h2>
-                                <p><a href="#">Characteres</a></p>
-                                <p><a href="#">Comics</a></p>
-                                <p><a href="#">Movies</a></p>
-                                <p><a href="#">Tv</a></p>
-                                <p><a href="#">Games</a></p>
-                                <p><a href="#">Videos</a></p>
-                                <p><a href="#">News</a></p>
+                                <div><a href="#">Characteres</a></div>
+                                <div><a href="#">Comics</a></div>
+                                <div><a href="#">Movies</a></div>
+                                <div><a href="#">Tv</a></div>
+                                <div><a href="#">Games</a></div>
+                                <div><a href="#">Videos</a></div>
+                                <div><a href="#">News</a></div>
                                 <h2>SHOP</h2>
-                                <p><a href="#">Shop DC</a></p>
-                                <p><a href="#">Shop DC Collectibles</a></p>
+                                <div><a href="#">Shop DC</a></div>
+                                <div><a href="#">Shop DC Collectibles</a></div>
                             </div>
                             <div class="margin-left">
                                 <h2>DC</h2>
-                                <p><a href="#">Terms Of Use</a></p>
-                                <p><a href="#">Privacy policy (New)</a></p>
-                                <p><a href="#">Ad Choices</a></p>
-                                <p><a href="#">Advertising</a></p>
-                                <p><a href="#">Jobs</a></p>
-                                <p><a href="#">Subscriptions</a></p>
-                                <p><a href="#">Talent Workshops</a></p>
-                                <p><a href="#">CPSC Certificates</a></p>
-                                <p><a href="#">Ratings</a></p>
-                                <p><a href="#">Shop Help</a></p>
-                                <p><a href="#">Contact Us</a></p>
+                                <div><a href="#">Terms Of Use</a></div>
+                                <div><a href="#">Privacy policy (New)</a></div>
+                                <div><a href="#">Ad Choices</a></div>
+                                <div><a href="#">Advertising</a></div>
+                                <div><a href="#">Jobs</a></div>
+                                <div><a href="#">Subscriptions</a></div>
+                                <div><a href="#">Talent Workshops</a></div>
+                                <div><a href="#">CPSC Certificates</a></div>
+                                <div><a href="#">Ratings</a></div>
+                                <div><a href="#">Shop Help</a></div>
+                                <div><a href="#">Contact Us</a></div>
                             </div>
                             <div class="margin-left">
                                 <h2>SITES</h2>
-                                <p><a href="#">DC</a></p>
-                                <p><a href="#">MAD Magazine</a></p>
-                                <p><a href="#">DC Kids</a></p>
-                                <p><a href="#">DC Universe</a></p>
-                                <p><a href="#">DC Power Visa</a></p>
+                                <div><a href="#">DC</a></div>
+                                <div><a href="#">MAD Magazine</a></div>
+                                <div><a href="#">DC Kids</a></div>
+                                <div><a href="#">DC Universe</a></div>
+                                <div><a href="#">DC Power Visa</a></div>
                             </div>
                         </div>
+                        <p class="text-secondary mt-5">All Site Content TM and 2020 DC Entertainment, unless otherwise <a class="text-primary" href="#">noted here</a>. All rights reserved. <a class="text-primary" href="#">Cookies Settings</a></p>
                     </div>
                     <div class="col">
                         <div class="image-container">
