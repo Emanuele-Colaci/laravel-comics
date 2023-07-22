@@ -129,8 +129,11 @@ button{
 }
 
 .dimension{
-    width: calc(100% / 7 );
+    width: calc(100% / 5 - 100px );
     vertical-align: middle;
+    span{
+        font-size: 12px;
+    }
 }
 
 main a{
@@ -138,6 +141,16 @@ main a{
     color: #fff;
     span{
         margin-left: 5px;
+    }
+}
+
+.svg-img{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 150px;
+    display: block ruby;
+    span{
+        font-size: 12px;
     }
 }
 

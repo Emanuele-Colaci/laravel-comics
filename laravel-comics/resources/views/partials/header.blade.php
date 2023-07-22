@@ -22,7 +22,7 @@
                 <div class="container">
                     <div class="d-flex align-items-center justify-content-end ">
                         <a href="#" class="text-white">
-                            <p><strong>dc power visa</strong></p>
+                            <p><strong>DC POWER&#x2120; VISA&#xae;</i></strong></p>
                         </a>
                         <a href="#" class="text-white">
                             <p class="mx-3"><strong>ADDITIONAL DC SITES <i class="fa-solid fa-caret-down"></i></strong></p>
