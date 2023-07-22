@@ -51,14 +51,14 @@
                 </div>
             </div>
             <div class="container p-5">
-            <div class="row">
+                <div class="row">
                     <div class="col-6">
-                        <h5>Talent</h5>
-                        <div class="d-flex justify-content-between">
+                        <h5 class="mb-5">Talent</h5>
+                        <div class="d-flex justify-content-between border-margin">
                             <div>
                                 <p>Art by:</p>
                             </div>
-                            <div>
+                            <div class="dimension-text">
                                 <a href="#" class="text-primary">
                                     José Luis García-López,
                                     Clay Mann,
@@ -74,11 +74,11 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between border-margin">
                             <div>
                                 <p>Written by:</p>
                             </div>
-                            <div>
+                            <div class="dimension-text">
                                 <a href="#" class="text-primary text-end">
                                     Brad Meltzer,
                                     Tom King,
@@ -98,8 +98,33 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <h5>Specs</h5>
-                        
+                        <h5 class="mb-5">Specs</h5>
+                        <div class="d-flex justify-content-between border-margin">
+                            <div>
+                                <p>Series:</p>
+                            </div>
+                            <div class="dimension-text">
+                                <a href="#" class="text-primary">
+                                    ACRION COMICS
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between border-margin">
+                            <div>
+                                <p>U.S. Price:</p>
+                            </div>
+                            <div class="dimension-text">
+                                $19.99
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between border-margin">
+                            <div>
+                                <p>On Sale Date:</p>
+                            </div>
+                            <div class="dimension-text">
+                                Oct 02 2018
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
