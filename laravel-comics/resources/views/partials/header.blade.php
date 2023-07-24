@@ -22,7 +22,7 @@
                 <div class="container">
                     <div class="d-flex align-items-center justify-content-end ">
                         <a href="#" class="text-white">
-                            <p><strong>DC POWER&#x2120; VISA&#xae;</i></strong></p>
+                            <p><strong>DC POWER&#x2120; VISA&#xae;</strong></p>
                         </a>
                         <a href="#" class="text-white">
                             <p class="mx-3"><strong>ADDITIONAL DC SITES <i class="fa-solid fa-caret-down"></i></strong></p>
@@ -41,52 +41,52 @@
                         <div class="col-10">
                             <ul>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="link">
                                         <strong>CHARACTERS</strong>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="active">
                                         <strong>COMICS</strong>    
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="link">
                                         <strong>MOVIES</strong>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="link">
                                         <strong>TV</strong>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="link">
                                         <strong>GAMES</strong>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="link">
                                         <strong>COLLECTIBLES</strong>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="link">
                                         <strong>VIDEOS</strong>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="link">
                                         <strong>FANS</strong>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="link">
                                         <strong>NEWS</strong>  
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="link.active">
+                                    <a href="#" class="link">
                                         <strong>SHOP</strong>
                                         <i class="fa-solid fa-caret-down"></i>
                                     </a>
