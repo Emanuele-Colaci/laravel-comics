@@ -46,7 +46,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="active">
+                                    <a href="{{ route('homepage') }}" class="link">
                                         <strong>COMICS</strong>    
                                     </a>
                                 </li>
