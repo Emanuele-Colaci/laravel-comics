@@ -93,5 +93,23 @@
                 </div>
             </div>
         </div>
+        <div class="d-flex justify-content-between">
+            <div class="image-container d-flex align-items-center">
+                <p class="">DIGITALS COMICS</p> 
+                <img class="margin" src="{{Vite::asset('/resources/images/cta-icons.png')}}" alt="">
+            </div>
+            <div class="image-container1 d-flex align-items-center">
+                <p class="">SHOP DC</p> 
+                <img class="margin" src="{{Vite::asset('/resources/images/cta-icons.png')}}" alt="">
+            </div>
+            <div class="image-container2 d-flex align-items-center">
+                <p class="">COMIC SHOP LOCATOR</p> 
+                <img class="margin" src="{{Vite::asset('/resources/images/cta-icons.png')}}" alt="">
+            </div>
+            <div class="image-container3 d-flex align-items-center">
+                <p class="">SUBSCRIPTIONS</p> 
+                <img class="margin" src="{{Vite::asset('/resources/images/cta-icons.png')}}" alt="">
+            </div>
+        </div>
     </div>
 @endsection
