@@ -20,11 +20,7 @@
         @include('partials/header')
 
         <!-- MAIN -->
-        <div class="position-relative">
-            <!-- JUMBOTRON -->
-            <img class="jumbotron" src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" alt="Jumbotron">
-            <button class="position">CURRENT SERIES</button>
-        </div>
+        
         <main>
             @yield('content')
         </main>

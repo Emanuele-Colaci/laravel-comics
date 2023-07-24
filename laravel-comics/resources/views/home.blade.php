@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="position-relative">
+        <!-- JUMBOTRON -->
+        <img class="jumbotron" src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" alt="Jumbotron">
+        <button class="position">CURRENT SERIES</button>
+    </div>
     <div class="background-black"> 
         <div class="container">
             <div class="row">

@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="position-relative">
+        <!-- JUMBOTRON -->
+        <img class="jumbotron1" src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" alt="Jumbotron">
+        <img class="position1" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+    </div>
     <div class="container p-5">
         <div class="row">
             <div class="col-7">
@@ -34,13 +39,13 @@
                         <p>Art by:</p>
                     </div>
                     <div class="dimension-text">
-                        <a href="#" class="text-primary">
-                            <ul class="list-unstyled">
-                                @foreach ($comic['artists'] as $artist)
+                        <ul class="list-unstyled">
+                            @foreach ($comic['artists'] as $artist)
+                                <a href="#" class="text-primary">
                                     <li class="d-inline">{{ $artist }}</li>
-                                @endforeach
-                            </ul>
-                        </a>
+                                </a>
+                            @endforeach
+                        </ul>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between border-margin">
@@ -48,13 +53,13 @@
                         <p>Written by:</p>
                     </div>
                     <div class="dimension-text">
-                        <a href="#" class="text-primary">
-                            <ul class="list-unstyled">
-                                @foreach ($comic['writers'] as $writer)
+                        <ul class="list-unstyled">
+                            @foreach ($comic['writers'] as $writer)
+                                <a href="#" class="text-primary">
                                     <li class="d-inline">{{ $writer }}</li>
-                                @endforeach
-                            </ul>
-                        </a>
+                                </a>
+                            @endforeach
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -66,7 +71,7 @@
                     </div>
                     <div class="dimension-text">
                         <a href="#" class="text-primary">
-                            ACRION COMICS
+                            {{ $comic['series'] }}
                         </a>
                     </div>
                 </div>
