@@ -4,10 +4,10 @@
     <div class="background-black"> 
         <div class="container">
             <div class="row">
-                @foreach($comics as $comic)
+                @foreach($comics as $id => $comic)
                     <div class="col-12 col-md-6 col-lg-2 mt-5">
                         <div class="my-1 height-card">
-                            <a href="{{ $comic['link'] }}"><img class="img-fluid card-img-top fumetti" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}"></a>
+                            <a href="{{ route('fumetto', $id) }}"><img class="img-fluid card-img-top fumetti" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}"></a>
                             <div class="card-body text-white mt-3">
                                 <span>{{ $comic['series'] }}</span>
                             </div>

@@ -4,7 +4,7 @@
     <div class="container p-5">
         <div class="row">
             <div class="col-7">
-                <h2>Action Comics #1000: The Deluxe Edition</h2>
+                <h2>{{ $comic['title'] }}</h2>
                 <div class="d-flex">
                     <div class="mt-4 p-2 px-3 bg-success border-end d-flex justify-content-between align-items-center w-100"> 
                         <p class="pt-2 text-white"><span class="text-white-50">U.S. Price:</span> $19.99</p>

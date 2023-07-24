@@ -18,6 +18,15 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('homepage');
 
-Route::get('/actions_comics', function () {
-    return view('actions_comics');
-});
+Route::get('/products/{fumetti_comics}', function ($id) {
+    $comics = config('comics.comics');
+
+    if($id >= 0 && $id < count($comics)){
+        $comic = $comics[$id];
+        return view('products.fumetti_comics', compact('comic'));
+    }
+    else{
+        abort('404');
+    }
+
+})->name('fumetto');
