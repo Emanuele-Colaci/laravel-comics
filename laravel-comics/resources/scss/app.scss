@@ -168,42 +168,43 @@ main a{
 }
 
 .image-container, .image-container1, .image-container2, .image-container3{
-    padding-top: 150px;
+    padding-top: 170px;
     position: relative;
     width: 400px; 
     height: 200px;
+    
 }
 
 .image-container img{
     left: 60%;
-    width: 400px;
+    width: 300px;
     position: absolute;
-    clip: rect(0px, 90px, 99px, 0px); /* Valori: clip(top, right, bottom, left) */
+    clip: rect(0px, 70px, 74px, 0px); /* Valori: clip(top, right, bottom, left) */
 }
 
 .image-container1 img{
-    left: -40%;
-    width: 400px;
+    left: -30%;
+    width: 300px;
     position: absolute;
-    clip: rect(0px, 400px, 99px, 299px); /* Valori: clip(top, right, bottom, left) */
+    clip: rect(0px, 400px, 74px, 220px); /* Valori: clip(top, right, bottom, left) */
 }
 
 .image-container2 img{
-    
-    width: 400px;
+    left: 20%;
+    width: 300px;
     position: absolute;
-    clip: rect(0px, 300px, 99px, 199px); /* Valori: clip(top, right, bottom, left) */
+    clip: rect(0px, 220px, 74px, 150px); /* Valori: clip(top, right, bottom, left) */
 }
 
 .image-container3 img{
     left: 30%;
-    width: 400px;
+    width: 300px;
     position: absolute;
-    clip: rect(0px, 200px, 99px, 99px); /* Valori: clip(top, right, bottom, left) */
+    clip: rect(0px, 160px, 74px, 68px); /* Valori: clip(top, right, bottom, left) */
 }
 
 .margin{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 /* FINE MAIN */
