@@ -3,12 +3,13 @@
 @section('content')
     <div class="position-relative">
         <!-- JUMBOTRON -->
-        <img class="jumbotron1" src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" alt="Jumbotron">
-        <img class="position1" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+        <img class="jumbotron1 img-fluid" src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" alt="Jumbotron">
+        <img class="position1 img-fluid" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
     </div>
     <div class="container p-5">
-        <div class="row">
-            <div class="col-7">
+
+        <div class="row mt-5">
+            <div class="col-md-7">
                 <h2>{{ $comic['title'] }}</h2>
                 <div class="d-flex">
                     <div class="mt-4 p-2 px-3 bg-success border-end d-flex justify-content-between align-items-center w-100"> 
@@ -25,14 +26,13 @@
                     {{ $comic['description'] }}
                 </p>
             </div>
-            <div class="col-5">
-                <img class="dimension-img float-end" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+            <div class="col-md-5">
+                <img class="dimension-img float-end img-fluid" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
             </div>
         </div>
-    </div>
-    <div class="container p-5">
-        <div class="row">
-            <div class="col-6">
+
+        <div class="row mt-5">
+            <div class="col-md-6">
                 <h5 class="mb-5">Talent</h5>
                 <div class="d-flex justify-content-between border-margin">
                     <div>
@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
                 <h5 class="mb-5">Specs</h5>
                 <div class="d-flex justify-content-between border-margin">
                     <div>
