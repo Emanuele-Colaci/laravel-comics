@@ -33,65 +33,64 @@
             <div class="bg-white mt-3 mb-3">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-2">
+                        <div class="col-12 col-md-2">
                             <a href="/">
-                                <img class="logo" src="{{Vite::asset('/resources/images/dc-logo.png')}}" alt="logo">
+                                <img class="logo img-fluid" src="{{Vite::asset('/resources/images/dc-logo.png')}}" alt="logo">
                             </a>
                         </div>
-                        <div class="col-10">
-                            <ul>
-                                <li>
+                        <div class="col-12 col-md-10 mt-2 mt-md-0">
+                            <ul class="d-flex flex-wrap justify-content-center justify-content-md-start">
+                                <li class="my-2">
                                     <a href="#" class="link">
                                         <strong>CHARACTERS</strong>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="my-2">
                                     <a href="{{ route('homepage') }}" class="link">
-                                        <strong>COMICS</strong>    
+                                        <strong>COMICS</strong>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="my-2">
                                     <a href="#" class="link">
                                         <strong>MOVIES</strong>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="my-2">
                                     <a href="#" class="link">
                                         <strong>TV</strong>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="my-2">
                                     <a href="#" class="link">
                                         <strong>GAMES</strong>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="my-2">
                                     <a href="#" class="link">
                                         <strong>COLLECTIBLES</strong>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="my-2">
                                     <a href="#" class="link">
                                         <strong>VIDEOS</strong>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="my-2">
                                     <a href="#" class="link">
                                         <strong>FANS</strong>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="my-2">
                                     <a href="#" class="link">
-                                        <strong>NEWS</strong>  
+                                        <strong>NEWS</strong>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="my-2">
                                     <a href="#" class="link">
-                                        <strong>SHOP</strong>
-                                        <i class="fa-solid fa-caret-down"></i>
+                                        <strong>SHOP <i class="fa-solid fa-caret-down"></i></strong>
                                     </a>
                                 </li>
-                                <li class="search-container">
+                                <li class="my-2 search-container">
                                     <input type="text" class="text-end" placeholder="Search">
                                     <i class="fa-solid fa-magnifying-glass"></i>
                                 </li>
